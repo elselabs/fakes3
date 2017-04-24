@@ -1,0 +1,8 @@
+  fakes3:
+    container_name: fakes3
+    image: elselabs/elselabs-fakes3
+    ports:
+      - "4567:4567"
+    volumes:
+      - ./tmp:/fakes3/data
+   
