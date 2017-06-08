@@ -6,7 +6,7 @@ Usage (in docker-compose.yml):
 ```
   fakes3:
     container_name: fakes3
-    image: elselabs/fakes3
+    image: elselabsio/fakes3
     ports:
       - "4567:4567"
     volumes:
